@@ -55,3 +55,12 @@ try:
         print "Bucket Sort incorrect"
 except:
     print "Bucketsort function errored or is incomplete"
+
+try:
+    from counting import counting
+    if(counting(list(nums), 100) == sortedNums):
+        print "Counting Sort success"
+    else:
+        print "Counting Sort incorrect"
+except:
+    print "Counting function errored or is incomplete"
